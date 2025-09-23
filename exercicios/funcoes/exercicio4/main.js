@@ -2,20 +2,21 @@
 //  uma das 4 (quatro) operações matemáticas básicas (soma, subtração, divisão e adição), 
 // **retorne** o resultado de cada operação em cada uma delas;
 
-const soma = function(a, b) {
+function soma(a, b) {  //DECLARAÇÃO NOMEADA
     return a + b;
 }
-const substracao = function(a, b) {
+const substracao = function(a, b) { // ATRIBUIÇÃO DE FUNÇÃO ANÔNIMA
     return a - b;
 }
-const divisao = function(a, b) {
+
+const multiplicacao = (a, b) => a * b; // ARROW FUNCTION SEM CHAVES E SEM O "RETURN"
+
+
+const divisao = (a, b) => { // ARROW FUNCTION
         return a / b;
-}
-const multiplicacao = function(a, b) {
-    return a * b;
 }
 
 console.log(soma(5,20));
 console.log(substracao(5,20));
-console.log(divisao(5,20));
 console.log(multiplicacao(5,20));
+console.log(divisao(5,20));

@@ -10,6 +10,11 @@ const menorvalor = function(a, b) {
     }
 }
 
-console.log(menorvalor(2,20));
+console.log();
 console.log(menorvalor(30,820));
 console.log(menorvalor(1234123,123414));
+
+
+menorvalor(2,20,30)
+
+menorvalor(5,20)
