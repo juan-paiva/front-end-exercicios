@@ -17,6 +17,8 @@ let diasDaSemana = [
     'Sábado       '
 ];
 
+console.log(usoDiasDaSemana[1]);
+
 const indicadorDeUso = (numeroDehoras) => {
     if (numeroDehoras <= 1) {
         return '🟢';
