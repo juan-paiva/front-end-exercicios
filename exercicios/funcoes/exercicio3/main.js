@@ -2,7 +2,7 @@
 // - Melhoria opcional: verificar se os parâmetros passados são realmente numéricos ou não e 
 // só realizar a comparação caso sejam;
 
-const menorvalor = function(a, b) {
+const menorvalor = function(a, b,) {
     if (a < b) {
         return a;
     } else {
@@ -15,6 +15,6 @@ console.log(menorvalor(30,820));
 console.log(menorvalor(1234123,123414));
 
 
-menorvalor(2,20,30)
+// menorvalor(2,20,30)
 
-menorvalor(5,20)
+console.log(menorvalor(300,259))
